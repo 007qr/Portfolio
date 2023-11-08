@@ -6,7 +6,7 @@ function App() {
 
     return (
         <>
-            <div class="flex h-full w-full flex-col w-[100svw] h-[100svh]">
+            <div class="flex h-full w-full flex-col w-[100svw] h-[100svh] font-HKGrotesk">
                     <div class="w-full flex justify-center py-2 bg-black/80">
                         <select name="" id="" onInput={(e) => {setURL(e.target.value)}} class="px-2 bg-black/90 text-white font-medium py-2 rounded-lg">   
                             <option selected value="https://ding-ai.vercel.app/">Ding AI</option>
